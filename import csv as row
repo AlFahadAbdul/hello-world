@@ -1,0 +1,5 @@
+
+with open('input.csv', 'r') as input_csvfile, open('output.csv', 'w'):
+     input_reader = csv.reader(input_csvfile, delimiter=',')
+     for row in input_reader:
+         print(row)
